@@ -1,0 +1,758 @@
+{
+  "errors": [],
+  "views": [
+    {
+      "width": 1487,
+      "scrollWidth": 1487,
+      "h1": "νοῦς",
+      "headings": 7,
+      "targets": [],
+      "fonts": [
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistSans Fallback",
+          "status": "unloaded",
+          "weight": "normal",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistMono Fallback",
+          "status": "loaded",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "fontCheck": true,
+      "imageFailures": [],
+      "overflow": []
+    },
+    {
+      "width": 900,
+      "scrollWidth": 900,
+      "h1": "νοῦς",
+      "headings": 7,
+      "targets": [],
+      "fonts": [
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistSans Fallback",
+          "status": "unloaded",
+          "weight": "normal",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistMono Fallback",
+          "status": "loaded",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "fontCheck": true,
+      "imageFailures": [],
+      "overflow": []
+    },
+    {
+      "width": 470,
+      "scrollWidth": 470,
+      "h1": "νοῦς",
+      "headings": 7,
+      "targets": [],
+      "fonts": [
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistSans Fallback",
+          "status": "unloaded",
+          "weight": "normal",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistMono Fallback",
+          "status": "loaded",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "fontCheck": true,
+      "imageFailures": [],
+      "overflow": []
+    },
+    {
+      "width": 420,
+      "scrollWidth": 420,
+      "h1": "νοῦς",
+      "headings": 7,
+      "targets": [],
+      "fonts": [
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistSans Fallback",
+          "status": "unloaded",
+          "weight": "normal",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistMono Fallback",
+          "status": "loaded",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "fontCheck": true,
+      "imageFailures": [],
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": "νοῦς",
+      "headings": 7,
+      "targets": [],
+      "fonts": [
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistSans Fallback",
+          "status": "unloaded",
+          "weight": "normal",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistMono Fallback",
+          "status": "loaded",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "fontCheck": true,
+      "imageFailures": [],
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "h1": "νοῦς",
+      "headings": 7,
+      "targets": [],
+      "fonts": [
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistSans",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistSans Fallback",
+          "status": "unloaded",
+          "weight": "normal",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "normal"
+        },
+        {
+          "family": "GeistMono",
+          "status": "loaded",
+          "weight": "100 900",
+          "style": "italic"
+        },
+        {
+          "family": "GeistMono Fallback",
+          "status": "loaded",
+          "weight": "normal",
+          "style": "normal"
+        }
+      ],
+      "fontCheck": true,
+      "imageFailures": [],
+      "overflow": []
+    }
+  ],
+  "motion": {
+    "hero": [
+      {
+        "tag": "H1",
+        "kind": "hero",
+        "top": 168,
+        "options": {
+          "duration": 700,
+          "delay": 0,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+        },
+        "frames": [
+          {
+            "transform": "translateY(16px)"
+          },
+          {
+            "transform": "none"
+          }
+        ],
+        "finished": false
+      },
+      {
+        "tag": "P",
+        "kind": "hero",
+        "top": 191.59375,
+        "options": {
+          "duration": 700,
+          "delay": 80,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+        },
+        "frames": [
+          {
+            "transform": "translateY(16px)"
+          },
+          {
+            "transform": "none"
+          }
+        ],
+        "finished": false
+      },
+      {
+        "tag": "A",
+        "kind": "hero",
+        "top": 352.90625,
+        "options": {
+          "duration": 700,
+          "delay": 160,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+        },
+        "frames": [
+          {
+            "transform": "translateY(16px)"
+          },
+          {
+            "transform": "none"
+          }
+        ],
+        "finished": false
+      },
+      {
+        "tag": "FIGURE",
+        "kind": "hero-media",
+        "top": 448.5,
+        "options": {
+          "duration": 700,
+          "delay": 240,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+        },
+        "frames": [
+          {
+            "transform": "translateY(8px)"
+          },
+          {
+            "transform": "none"
+          }
+        ],
+        "finished": false
+      },
+      {
+        "tag": "FIGURE",
+        "kind": "hero-media",
+        "top": 448.5,
+        "options": {
+          "duration": 700,
+          "delay": 240,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+        },
+        "frames": [
+          {
+            "transform": "translateY(8px)"
+          },
+          {
+            "transform": "none"
+          }
+        ],
+        "finished": false
+      },
+      {
+        "tag": "FIGURE",
+        "kind": "hero-media",
+        "top": 448.5,
+        "options": {
+          "duration": 700,
+          "delay": 240,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+        },
+        "frames": [
+          {
+            "transform": "translateY(8px)"
+          },
+          {
+            "transform": "none"
+          }
+        ],
+        "finished": false
+      },
+      {
+        "tag": "FIGURE",
+        "kind": "hero-media",
+        "top": 448.5,
+        "options": {
+          "duration": 700,
+          "delay": 240,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+        },
+        "frames": [
+          {
+            "transform": "translateY(8px)"
+          },
+          {
+            "transform": "none"
+          }
+        ],
+        "finished": false
+      },
+      {
+        "tag": "FIGURE",
+        "kind": "hero-media",
+        "top": 448.5,
+        "options": {
+          "duration": 700,
+          "delay": 240,
+          "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+        },
+        "frames": [
+          {
+            "transform": "translateY(8px)"
+          },
+          {
+            "transform": "none"
+          }
+        ],
+        "finished": false
+      }
+    ],
+    "reveals": [
+      {
+        "tag": "H2",
+        "kind": "slide",
+        "top": 1242.671875,
+        "options": {
+          "duration": 600,
+          "delay": 0,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "fill": "backwards"
+        },
+        "frames": [
+          {
+            "opacity": 0,
+            "transform": "translateX(-12px)"
+          },
+          {
+            "opacity": 1,
+            "transform": "none"
+          }
+        ],
+        "finished": true
+      },
+      {
+        "tag": "P",
+        "kind": "fade",
+        "top": 1520.234375,
+        "options": {
+          "duration": 600,
+          "delay": 0,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "fill": "backwards"
+        },
+        "frames": [
+          {
+            "opacity": 0,
+            "transform": "none"
+          },
+          {
+            "opacity": 1,
+            "transform": "none"
+          }
+        ],
+        "finished": true
+      },
+      {
+        "tag": "ARTICLE",
+        "kind": "fade",
+        "top": 1716.609375,
+        "options": {
+          "duration": 600,
+          "delay": 0,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "fill": "backwards"
+        },
+        "frames": [
+          {
+            "opacity": 0,
+            "transform": "none"
+          },
+          {
+            "opacity": 1,
+            "transform": "none"
+          }
+        ],
+        "finished": true
+      },
+      {
+        "tag": "ARTICLE",
+        "kind": "fade",
+        "top": 1716.609375,
+        "options": {
+          "duration": 600,
+          "delay": 80,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "fill": "backwards"
+        },
+        "frames": [
+          {
+            "opacity": 0,
+            "transform": "none"
+          },
+          {
+            "opacity": 1,
+            "transform": "none"
+          }
+        ],
+        "finished": true
+      },
+      {
+        "tag": "FIGURE",
+        "kind": "rise",
+        "top": 2647.84375,
+        "options": {
+          "duration": 600,
+          "delay": 0,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "fill": "backwards"
+        },
+        "frames": [
+          {
+            "opacity": 0,
+            "transform": "translateY(8px)"
+          },
+          {
+            "opacity": 1,
+            "transform": "none"
+          }
+        ],
+        "finished": true
+      },
+      {
+        "tag": "FIGURE",
+        "kind": "rise",
+        "top": 2647.84375,
+        "options": {
+          "duration": 600,
+          "delay": 80,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "fill": "backwards"
+        },
+        "frames": [
+          {
+            "opacity": 0,
+            "transform": "translateY(8px)"
+          },
+          {
+            "opacity": 1,
+            "transform": "none"
+          }
+        ],
+        "finished": true
+      },
+      {
+        "tag": "FIGURE",
+        "kind": "rise",
+        "top": 2647.84375,
+        "options": {
+          "duration": 600,
+          "delay": 160,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "fill": "backwards"
+        },
+        "frames": [
+          {
+            "opacity": 0,
+            "transform": "translateY(8px)"
+          },
+          {
+            "opacity": 1,
+            "transform": "none"
+          }
+        ],
+        "finished": true
+      },
+      {
+        "tag": "FIGURE",
+        "kind": "rise",
+        "top": 2647.84375,
+        "options": {
+          "duration": 600,
+          "delay": 240,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "fill": "backwards"
+        },
+        "frames": [
+          {
+            "opacity": 0,
+            "transform": "translateY(8px)"
+          },
+          {
+            "opacity": 1,
+            "transform": "none"
+          }
+        ],
+        "finished": true
+      }
+    ],
+    "afterRapid": [
+      {
+        "played": "true",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "played": "true",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "played": "true",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "played": "true",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "played": "true",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "played": "true",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "played": "true",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "played": "true",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "middleReload": {
+      "scrollY": 8364,
+      "visible": true,
+      "heroCalls": 0
+    },
+    "reducedDuringPlayback": {
+      "allVisible": true,
+      "running": 0
+    }
+  },
+  "theme": {
+    "selected": "dark",
+    "background": "rgb(12, 10, 9)",
+    "restored": "true"
+  },
+  "hashFocus": {
+    "hash": "#meaning",
+    "active": "meaning"
+  },
+  "noScript": {
+    "h1": "νοῦς",
+    "visible": true,
+    "overflow": false
+  },
+  "keyboardSkip": {
+    "text": "Skip to content",
+    "width": 151.78125,
+    "height": 48,
+    "outline": "solid",
+    "target": "main-content"
+  },
+  "zoom200": {
+    "width": 744,
+    "overflow": false
+  },
+  "mediaKeyboard": {
+    "scrollLeft": 40,
+    "scrollWidth": 1455,
+    "clientWidth": 390
+  },
+  "greekGlyphs": {
+    "fonts": [
+      {
+        "familyName": "Times New Roman",
+        "postScriptName": "TimesNewRomanPSMT",
+        "isCustomFont": false,
+        "glyphCount": 1
+      },
+      {
+        "familyName": "Georgia",
+        "postScriptName": "Georgia",
+        "isCustomFont": false,
+        "glyphCount": 3
+      }
+    ]
+  },
+  "fontWeights": [
+    {
+      "family": "GeistSans",
+      "weight": 400,
+      "check": true,
+      "matchingLoaded": true
+    },
+    {
+      "family": "GeistSans",
+      "weight": 500,
+      "check": true,
+      "matchingLoaded": true
+    },
+    {
+      "family": "GeistSans",
+      "weight": 600,
+      "check": true,
+      "matchingLoaded": true
+    },
+    {
+      "family": "GeistMono",
+      "weight": 400,
+      "check": true,
+      "matchingLoaded": true
+    },
+    {
+      "family": "GeistMono",
+      "weight": 500,
+      "check": true,
+      "matchingLoaded": true
+    }
+  ],
+  "/privacy-policy": "Privacy Policy",
+  "/terms-of-service": "Terms of Service"
+}

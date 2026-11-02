@@ -1,66 +1,22 @@
-"use client";
+import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { EditorialMedia } from "./editorial-media";
 
-import { motion } from "motion/react";
-import { ArrowUpRight } from "@phosphor-icons/react";
-
+const images = [
+  ["greek_text_detail", "Contemporary Greek letterpress illustration", "Language"],
+  ["bound_book_detail", "Teal clothbound book on pale stone", "Transmission"],
+  ["light_on_paper", "Daylight across a curved fold of paper", "Attention"],
+  ["stone_surface_detail", "Dark limestone with a central seam", "Material"],
+  ["open_page_detail", "Open blank book with layered cream pages", "Possibility"],
+];
 export function Hero() {
-  return (
-    <section className="relative min-h-[100dvh] flex flex-col justify-between px-6 pt-24 pb-12">
-      {/* Background decoration */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-[30%] -right-[20%] w-[60%] aspect-square rounded-full bg-accent/3 blur-[120px]" />
-        <div className="absolute -bottom-[20%] -left-[10%] w-[40%] aspect-square rounded-full bg-accent/2 blur-[100px]" />
-      </div>
-
-      <div className="relative z-10 flex-1 flex flex-col justify-center max-w-[1400px] mx-auto w-full">
-        {/* Greek script */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        >
-          <span className="block font-serif text-[13vw] sm:text-[11vw] md:text-[10vw] leading-[0.85] tracking-tighter text-foreground select-none">
-            νοῦς
-          </span>
-        </motion.div>
-
-        {/* Transliteration and short definition */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-6 md:mt-8 max-w-[42rem]"
-        >
-          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 mb-4">
-            <span className="font-mono text-sm text-muted italic">
-              nous
-            </span>
-            <span className="font-mono text-xs text-muted/50">
-              /nuːs/
-            </span>
-            <span className="font-mono text-[10.5px] uppercase tracking-[0.18em] text-muted/50">
-              Noun
-            </span>
-          </div>
-          <p className="text-xl md:text-2xl leading-relaxed text-foreground/80 max-w-[65ch]">
-            The ancient Greek word for mind, intellect, and the faculty of
-            intuitive insight — the part of consciousness that grasps truth
-            directly, without the labor of step-by-step reason.
-          </p>
-        </motion.div>
-
-        {/* Scroll indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.8 }}
-          className="mt-16 text-muted/40"
-        >
-          <span className="font-mono text-[10px] tracking-[0.2em] uppercase">
-            Explore the entries
-          </span>
-        </motion.div>
-      </div>
-    </section>
-  );
+  return <section className="hero" aria-labelledby="hero-heading">
+    <div className="hero-copy shell">
+      <h1 id="hero-heading" lang="el" data-hero>νοῦς</h1>
+      <div className="hero-intro"><p data-hero>Nous <span className="pronunciation">/nuːs/</span>: the Greek word for mind, intellect, and intuitive understanding. Explore how its meaning changes across philosophy, theology, and everyday language.</p><a data-hero className="primary-action" href="#meaning">Explore the entries <ArrowRight size={20} aria-hidden /></a></div>
+    </div>
+    <div className="hero-strip" tabIndex={0} role="region" aria-label="Five editorial illustrations. Scroll horizontally to explore.">
+      {images.map(([name, alt, caption], i) => <figure key={name} data-hero-media><EditorialMedia name={name} alt={alt} priority={i < 2} /><figcaption><span>0{i + 1}</span>{caption}</figcaption></figure>)}
+    </div>
+    <p className="image-note shell">Original editorial illustrations, exploring language, books, light, and material.</p>
+  </section>;
 }

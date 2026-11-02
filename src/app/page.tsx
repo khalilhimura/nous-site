@@ -1,135 +1,80 @@
+import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Nav } from "@/components/nav";
 import { Hero } from "@/components/hero";
-import { DictionaryEntry } from "@/components/dictionary-entry";
 import { Footer } from "@/components/footer";
+import { EditorialMedia as Media } from "@/components/editorial-media";
+import { PageEffects } from "@/components/page-effects";
 
-const entries = [
-  {
-    headword: "νοῦς",
-    transliteration: "nous",
-    phonetic: "nuːs",
-    partOfSpeech: "noun, masculine",
-    definition:
-      "Mind, intellect, reason — the highest cognitive faculty. In early Greek thought, nous is the capacity for direct intellectual apprehension, distinct from sensory perception (aisthēsis) and discursive reasoning (dianoia). It sees truth the way the eye sees light: immediately, without intermediary steps.",
-    etymology:
-      "From Proto-Indo-European *nes- (to return home, to come safely). The semantic arc moves from 'coming to one's senses' toward 'the faculty that brings understanding.' Cognate with Sanskrit नासिका (nā́sikā, 'nose') and Latin nōscō ('to know, to recognize').",
-    usageNote:
-      "In Homer, nous is primarily a sensory-mental faculty — perceiving a situation for what it is. By Plato and Aristotle, it has become the immortal, divine aspect of the soul. The shift from 'perception' to 'pure intellect' is the central story of Greek philosophy.",
-    relatedTerms: [
-      { term: "dianoia", definition: "Discursive thought, reasoning step by step." },
-      { term: "aisthēsis", definition: "Sensory perception, the raw data of experience." },
-      { term: "logos", definition: "Ordered account, argument, or the rational structure of reality." },
-    ],
-  },
-  {
-    headword: "Anaxagoras",
-    transliteration: "Nous as Cosmic Principle",
-    partOfSpeech: "philosophical concept",
-    definition:
-      "For Anaxagoras (5th century BCE), Nous is the cosmic Mind that set the primordial mixture into ordered motion — the first unmoved mover. It is infinite, self-ruled, and mixed with nothing. It 'knew all things and had the greatest power,' initiating the rotation that separated cosmos from chaos.",
-    etymology:
-      "Anaxagoras of Clazomenae, fragment B12 (DK). The first philosopher to posit a transcendent intelligence as the cause of cosmic order, influencing Plato's demiurge and Aristotle's unmoved mover.",
-    usageNote:
-      "Socrates reports in Plato's Phaedo that he was initially thrilled by Anaxagoras's Nous but became disillusioned when Anaxagoras failed to use it to explain why things are as they are — falling back on mechanical causes instead of teleological ones.",
-    relatedTerms: [
-      { term: "demiurge", definition: "Plato's divine craftsman who shapes the material world according to the Forms." },
-      { term: "arche", definition: "The originating principle or first cause of all things." },
-    ],
-  },
-  {
-    headword: "Plato",
-    transliteration: "Nous as the Rational Soul",
-    partOfSpeech: "philosophical concept",
-    definition:
-      "In Plato, nous is the rational part of the soul (to logistikon), seated in the head and capable of apprehending the Forms — the eternal, changeless realities behind the world of appearances. To exercise nous is to turn the eye of the soul toward truth itself, away from the shadows on the cave wall.",
-    etymology:
-      "Plato develops the concept across the Republic, Phaedo, Phaedrus, and Timaeus. The allegory of the cave is a metaphor for the soul's journey from ignorance (absence of nous) to enlightenment (active nous contemplating the Form of the Good).",
-    usageNote:
-      "Plato's nous is not merely cognitive — it is also ethical. To know the Good is to be oriented toward it. Nous and virtue are inseparable. This unity of intellect and moral character is the foundation of eudaimonia (flourishing).",
-    relatedTerms: [
-      { term: "eidos", definition: "Form or Idea — the eternal archetype that nous apprehends." },
-      { term: "to logistikon", definition: "The rational, calculating part of the tripartite soul." },
-      { term: "eudaimonia", definition: "The state of living well and doing well, the aim of philosophical life." },
-    ],
-  },
-  {
-    headword: "Aristotle",
-    transliteration: "Nous Poētikos",
-    phonetic: "nous poɪˈɛtɪkɒs",
-    partOfSpeech: "noun, phrase",
-    definition:
-      "Aristotle distinguishes between passive nous (nous pathētikos), which receives intelligible forms and is perishable, and active nous (nous poētikos), which illuminates them and is immortal and eternal. Like light making colours visible, active nous makes understanding possible — and it alone survives death.",
-    etymology:
-      "From De Anima (On the Soul) III.5. The distinction between active and passive intellect has been debated for millennia: is the active nous a part of the individual soul, or is it a separate divine intellect that enters from outside (thurathen)?",
-    usageNote:
-      "The philosopher Alexander of Aphrodisias identified the active nous with God. Averroes argued for a single, universal active intellect shared by all humans. Thomas Aquinas took a middle position: each person has their own active intellect, but it is a 'light' derived from God. The debate shaped medieval philosophy.",
-    relatedTerms: [
-      { term: "nous pathētikos", definition: "The passive, receptive intellect that perishes with the body." },
-      { term: "nous poētikos", definition: "The active, productive intellect that is immortal." },
-      { term: "thurathen", definition: "Literally 'from outside' — the idea that nous enters the soul from the divine." },
-    ],
-  },
-  {
-    headword: "Plotinus",
-    transliteration: "Nous as the Second Hypostasis",
-    partOfSpeech: "philosophical concept",
-    definition:
-      "In Neoplatonism, Nous is the second emanation from the One (to Hen) — the first determinate reality, a timeless, perfect intellect that contains all Forms as a unified, living awareness. It is both thinker and thought, subject and object united in eternal self-contemplation.",
-    etymology:
-      "Plotinus (204-270 CE) in the Enneads. The One overflows not by choice but by its superabundance, generating Nous as the first reflection of its own simplicity. Nous then generates Soul (Psychē), which in turn produces the material world.",
-    usageNote:
-      "This is the origin of the 'Great Chain of Being' — the hierarchical cosmos where everything emanates from the One, descends through Nous and Soul, and can return through contemplation and virtue. Nous here is not just a faculty but an entire metaphysical level of reality.",
-    relatedTerms: [
-      { term: "to Hen", definition: "The One — the ineffable, transcendent source beyond being and thought." },
-      { term: "Psychē", definition: "Soul — the third hypostasis, bridging intellect and matter." },
-      { term: "henosis", definition: "Union with the One — the ultimate goal of Neoplatonic practice." },
-    ],
-  },
-  {
-    headword: "Patristic & Medieval",
-    transliteration: "Nous in Christian Theology",
-    partOfSpeech: "theological term",
-    definition:
-      "The Greek Church Fathers adopted nous to denote the innermost spiritual faculty of the human person — the 'eye of the soul' capable of knowing God. In Eastern Orthodox theology, nous (often translated as 'noetic faculty') is distinct from reason (dianoia) and must be purified (katharsis) to participate in divine energies.",
-    etymology:
-      "Key figures: Evagrius Ponticus, the Cappadocian Fathers (Basil, Gregory of Nyssa, Gregory Nazianzen), Maximus the Confessor, and Gregory Palamas. The distinction between essence (ousia) and energies (energeiai) in God preserves the transcendence of the divine while allowing real participation.",
-    usageNote:
-      "In the Philokalia, a collection of texts on contemplative prayer, the 'purification of the nous' is the first stage of spiritual life. The Jesus Prayer — 'Lord Jesus Christ, Son of God, have mercy on me, a sinner' — is a practice for drawing the nous into the heart.",
-    relatedTerms: [
-      { term: "katharsis", definition: "Purification of the passions and the nous for union with God." },
-      { term: "theosis", definition: "Deification — the process of becoming partakers of the divine nature." },
-      { term: "nepsis", definition: "Watchfulness or sobriety of the nous — guarding against distracting thoughts." },
-    ],
-  },
-  {
-    headword: "Modern Legacy",
-    transliteration: "Nous in Contemporary Thought",
-    partOfSpeech: "cultural concept",
-    definition:
-      "The word nous survives in modern English primarily in the phrase 'use your nous' — a colloquial British expression for common sense, practical intelligence, or savvy. In philosophy, 'noetic' (from nous) refers to the study of intellect and intuitive knowledge. The term also lives on in 'paranoia' (beside-mind) and 'noesis' (the act of understanding).",
-    etymology:
-      "The Greek word entered Latin as nōs, then into English via the French nouz in the 17th century. The modern colloquial sense ('practical intelligence, gumption') developed in 19th-century British slang, a democratisation of what was once the highest faculty of the soul.",
-    usageNote:
-      "This page is itself a work of nous — a gathering together of meanings into a single, coherent vision. To read it is to exercise the very faculty it describes: the direct apprehension of a thing as a whole.",
-    relatedTerms: [
-      { term: "noesis", definition: "The act of intellectual intuition or direct understanding." },
-      { term: "noetic", definition: "Relating to the intellect, especially intuitive or mystical knowledge." },
-      { term: "paranoia", definition: "From para-'beside' + nous — a mind beside itself." },
-    ],
-  },
+const anaxagoras = [
+  ["mixture", "Mixture", "The starting condition contains things together.", "Mixed pebbles, mineral fragments, and grains in a ceramic tray"],
+  ["mind", "Mind", "Nous remains distinct from the mixture it orders.", "A pale stone separated from surrounding dark grains"],
+  ["motion", "Motion", "Rotation begins the process of separation.", "A pebble beside a circular trail in sand"],
+  ["order", "Order", "The account connects intelligence with the formation of the cosmos.", "Stones, shells, crystals, and sand arranged in distinct groups"],
 ];
-
+const plato = [
+  ["Forms", "The intelligible realities that understanding seeks.", "forms_material_detail", "Cream vessel and its shadow"],
+  ["Rational soul", "The part of the soul associated with reasoning and understanding.", "bound_book_detail", "Teal clothbound book"],
+  ["The Good", "Knowledge carries an ethical orientation, not only information.", "light_on_paper", "Daylight across folded paper"],
+  ["Flourishing", "Eudaimonia concerns living well, linking understanding with the shape of a life.", "open_page_detail", "Open blank book"],
+];
+const theology = [
+  ["Noetic faculty", "The inward capacity for spiritual attention and understanding.", "attention", "Open book on a desk beside a sunlit window"],
+  ["Katharsis", "Purification of the passions and attention.", "purification", "Water bowl, linen, and a closed book"],
+  ["Nepsis", "Watchfulness over thoughts and distractions.", "watchfulness", "Pale stone holding a blank page corner"],
+  ["Theosis", "Participation in divine life.", "participation", "Two open books in shared daylight"],
+  ["Contemplative prayer", "A practice associated with gathering attention and directing it toward God.", "prayer", "Closed book and an unlit beeswax candle"],
+];
 export default function Home() {
-  return (
-    <>
-      <Nav />
-      <main>
-        <Hero />
-        {entries.map((entry, i) => (
-          <DictionaryEntry key={entry.headword} {...entry} index={i} />
-        ))}
-      </main>
-      <Footer />
-    </>
-  );
+  return <>
+    <a href="#main-content" className="skip-link">Skip to content</a>
+    <Nav home />
+    <main id="main-content" tabIndex={-1} className="editorial-page">
+      <Hero />
+      <section id="meaning" tabIndex={-1} className="meaning section shell" aria-labelledby="meaning-heading">
+        <div className="meaning-top">
+          <div><p className="eyebrow">Entry 01 / Meaning</p><h2 id="meaning-heading" data-reveal="slide">MIND,<br />INTELLECT,<br />DIRECT<br />UNDERSTANDING</h2><p className="reading" data-reveal="fade">Nous names the capacity to understand. In Greek philosophical writing, it can describe an immediate grasp of something rather than a conclusion reached through a sequence of arguments.</p><a className="text-action" href="#anaxagoras">Read Anaxagoras <ArrowRight size={20} aria-hidden /></a></div>
+          <Media name="greek_text_detail" alt="Contemporary letterpress illustration of the Greek word νοῦς" className="meaning-image" />
+        </div>
+        <div className="comparison-grid">
+          <article data-reveal="fade"><h3>Perception</h3><p>Aisthēsis means sensory perception, the experience from which understanding can begin.</p></article>
+          <article data-reveal="fade" data-delay="80"><h3>Reasoning</h3><p>Dianoia means thinking through a question step by step. Logos can mean an account, argument, or rational explanation.</p></article>
+        </div>
+        <div className="terminology-row"><span className="eyebrow">Usage</span><p>The meaning of nous changes between authors. Read each interpretation in its own context.</p><span className="terms">νοῦς · dianoia · aisthēsis · logos</span></div>
+      </section>
+      <section id="anaxagoras" tabIndex={-1} className="anaxagoras section shell" aria-labelledby="anaxagoras-heading">
+        <div className="section-heading"><h2 id="anaxagoras-heading">Mind orders<br />the cosmos</h2><p className="eyebrow">Entry 02 / Anaxagoras</p></div>
+        <p className="reading section-intro">Anaxagoras presents Nous as a distinct intelligence that sets the primordial mixture into motion. It explains how an ordered cosmos can emerge from an original mixture.</p>
+        <div className="material-sequence">{anaxagoras.map(([id, title, text, alt], i) => <figure key={id} data-reveal="rise" data-delay={i * 80}><span className="sequence-number">0{i + 1}/</span><Media name={`anaxagoras_${id}`} alt={alt} /><figcaption><h3>{title}</h3><p>{text}</p></figcaption></figure>)}</div>
+        <p className="reading closing-note">Socrates later questions whether this account explains why things are arranged as they are, rather than only how they move.</p>
+      </section>
+      <section id="plato" tabIndex={-1} className="plato section" aria-labelledby="plato-heading">
+        <Media name="light_on_paper" alt="Daylight reveals the curve of folded cream paper" className="plato-banner" />
+        <div className="shell"><div className="plato-copy"><p className="eyebrow">Entry 03 / Plato</p><div><h2 id="plato-heading">Plato turns the mind{" "}<br />toward the Forms.</h2><p className="reading">For Plato, intellectual understanding reaches beyond changing appearances toward the Forms. The cave allegory describes a movement from familiar shadows toward a clearer account of reality.</p></div></div>
+        <div className="concept-grid">{plato.map(([title, text, image, alt], i) => <article key={title}><span className="eyebrow">03 / 0{i + 1}</span><div><Media name={image} alt={alt} /><div><h3>{title}</h3><p>{text}</p></div></div></article>)}</div></div>
+      </section>
+      <section id="aristotle" tabIndex={-1} className="aristotle section shell" aria-labelledby="aristotle-heading">
+        <figure className="aristotle-figure"><Media name="aristotle_light_study" alt="Glass prism casts a band of color onto cream paper" /><figcaption><span className="eyebrow">04</span><h2 id="aristotle-heading">Aristotle</h2><span className="caption-rule" /><span className="terms">Nous pathētikos<br />Nous poētikos</span></figcaption></figure>
+        <div className="aristotle-copy"><p className="reading">Passive intellect receives intelligible forms. Active intellect makes understanding possible, compared with light making colors visible.</p><div><dl className="term-definitions"><div><dt>Nous pathētikos</dt><dd>The receptive intellect.</dd></div><div><dt>Nous poētikos</dt><dd>The active intellect.</dd></div></dl><p>The relationship between these terms, the individual soul, and immortality has produced competing interpretations. Read the distinction as a philosophical problem rather than a settled formula.</p><p className="source-note">Context: <cite>De Anima</cite>, Book III.</p></div></div>
+      </section>
+      <section id="plotinus" tabIndex={-1} className="plotinus section shell" aria-labelledby="plotinus-heading">
+        <header className="plotinus-heading"><h2 id="plotinus-heading">Intellect as a level of reality</h2><p className="eyebrow">Entry 05 / Plotinus</p></header>
+        <div className="plotinus-grid"><article className="plotinus-feature"><div className="plotinus-feature-copy"><span className="eyebrow">Nous</span><h3>Thinker and thought, united.</h3><p>In Plotinus, Nous is more than a human faculty. It is the intelligible reality in which thinker and thought are united.</p><div className="source-block"><Media name="open_page_detail" alt="Open cream-paper book" /><p>Context: Plotinus,<br /><cite>Enneads</cite>.</p></div></div><Media name="plotinus_reflection_study" alt="Open book and its reflection in a mirror" /></article>
+        <div className="plotinus-side"><article><div><h3>The One</h3><p>The source beyond ordinary categories of being and thought.</p></div><Media name="plotinus_source_study" alt="Closed book illuminated by window light" /></article><article><div><h3>Soul</h3><p>The level that connects intellect with the living, material world.</p></div><Media name="plotinus_connection_study" alt="Book signatures connected with linen thread" /></article></div></div>
+        <p className="reading closing-note">The account moves from the One through Nous to Soul. Contemplation concerns a return toward the source.</p>
+      </section>
+      <section id="christian_theology" tabIndex={-1} className="theology section shell" aria-labelledby="theology-heading">
+        <header><p className="eyebrow">Entry 06 / Christian theology</p><h2 id="theology-heading">The inward faculty of understanding</h2><p className="reading">In Eastern Christian writing, nous can name the inward faculty through which a person attends to God. It is often distinguished from discursive reasoning.</p></header>
+        <div className="theology-rows">{theology.map(([title, text, image, alt]) => <article key={title}><Media name={`theology_${image}_study`} alt={alt} /><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+      <section id="modern_usage" tabIndex={-1} className="modern section" aria-labelledby="modern-heading">
+        <div className="modern-top"><div className="modern-intro"><p className="eyebrow">Entry 07 / Modern usage</p><h2 id="modern-heading">Use your<br />nous.</h2><p>In everyday British English, nous means practical intelligence or common sense. The word also survives in vocabulary about thought and understanding.</p><a className="primary-action" href="#meaning">Back to entries <ArrowRight size={20} aria-hidden /></a></div><Media name="everyday_reading_scene" alt="Open book beside a cream chair in an anonymous reading room" /></div>
+        <div className="modern-bottom shell"><div className="modern-label"><p className="eyebrow">Words that remain</p><p>Thought in everyday language.</p></div>{[
+          ["Noetic", "Relating to intellect or intuitive understanding.", "bound_book_detail", "Teal clothbound book"],
+          ["Noesis", "The act of intellectual understanding.", "open_page_detail", "Open blank book"],
+          ["Paranoia", "A related word with a distinct modern meaning. Its medical use should not be reduced to a literal translation of its Greek parts.", "greek_text_detail", "Contemporary Greek letterpress illustration"],
+        ].map(([title, text, image, alt]) => <article key={title}><Media name={image} alt={alt} /><div><h3>{title}</h3><p>{text}</p></div></article>)}</div>
+      </section>
+    </main>
+    <Footer /><PageEffects />
+  </>;
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "theme": "light",
+    "checked": 157,
+    "min": 5.608589638027945,
+    "failures": [],
+    "actionBoundary": 3.5850282298432457,
+    "focusColor": "#006d64"
+  },
+  {
+    "theme": "dark",
+    "checked": 157,
+    "min": 7.191844083441711,
+    "failures": [],
+    "actionBoundary": 7.936618604487239,
+    "focusColor": "#10b7a5"
+  }
+]
