@@ -1,0 +1,24 @@
+{
+  "sourcePage": "https://github.com/google/fonts/tree/main/ofl/delagothicone",
+  "license": "OFL-1.1",
+  "files": [
+    {
+      "file": "DelaGothicOne-Regular.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/delagothicone/DelaGothicOne-Regular.ttf",
+      "bytes": 2508848,
+      "sha256": "4ff87a0965f1b0505e5a2c58424bc6ad3cff27e56a82f21c2fc9d6b0e3857ee2"
+    },
+    {
+      "file": "OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/delagothicone/OFL.txt",
+      "bytes": 4392,
+      "sha256": "c0014792d4f4abc0508c295b277f2b17ae44465c8dc88d12af9cea48279b5fda"
+    },
+    {
+      "file": "METADATA.pb",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/delagothicone/METADATA.pb",
+      "bytes": 1019,
+      "sha256": "d99bf2e9e9e76a8b44e659fbb80be21839902639a6e3bc25e5a5cf302d0c46e7"
+    }
+  ]
+}

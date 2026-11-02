@@ -19,7 +19,7 @@ export function LegalPage({
   sections: LegalSection[];
 }) {
   return (
-    <>
+    <div className="legal-page">
       <a href="#legal-content" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-6 focus:z-[60] focus:bg-background focus:p-3 focus:text-foreground">
         Skip to content
       </a>
@@ -68,6 +68,6 @@ export function LegalPage({
         </div>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

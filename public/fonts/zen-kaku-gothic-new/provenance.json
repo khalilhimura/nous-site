@@ -1,0 +1,30 @@
+{
+  "sourcePage": "https://github.com/google/fonts/tree/main/ofl/zenkakugothicnew",
+  "license": "OFL-1.1",
+  "files": [
+    {
+      "file": "ZenKakuGothicNew-Regular.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/zenkakugothicnew/ZenKakuGothicNew-Regular.ttf",
+      "bytes": 2360248,
+      "sha256": "b840cd07a67d89cacca44249ae49aa99ee7640eb5ce623be8d8983d6aabac801"
+    },
+    {
+      "file": "ZenKakuGothicNew-Medium.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/zenkakugothicnew/ZenKakuGothicNew-Medium.ttf",
+      "bytes": 2328176,
+      "sha256": "651a3f7280b7f36262601ee76d8388a8dc4372dcc67aff025a608939a562b525"
+    },
+    {
+      "file": "OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/zenkakugothicnew/OFL.txt",
+      "bytes": 4401,
+      "sha256": "0fac78a235c98d640cb06332eb5362c211d86fa03c011df438c35005d22ad2c7"
+    },
+    {
+      "file": "METADATA.pb",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/zenkakugothicnew/METADATA.pb",
+      "bytes": 2631,
+      "sha256": "d1bd43c475dd673a67c210a6277fea8e61c4fcd29c546ac274791617da5c6473"
+    }
+  ]
+}
