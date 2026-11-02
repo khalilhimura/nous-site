@@ -1,4 +1,4 @@
-"use client";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -7,9 +7,10 @@ export function Footer() {
         <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted/50">
           νοῦς — from the Greek
         </span>
-        <span className="text-xs font-mono text-muted/40">
-          A lexical meditation
-        </span>
+        <nav aria-label="Legal" className="flex flex-wrap gap-x-6 gap-y-3 text-xs font-mono text-foreground/70">
+          <Link href="/privacy-policy" className="hover:text-accent">Privacy Policy</Link>
+          <Link href="/terms-of-service" className="hover:text-accent">Terms of Service</Link>
+        </nav>
       </div>
     </footer>
   );
