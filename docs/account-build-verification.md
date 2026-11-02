@@ -124,3 +124,11 @@ Code review identified one additional keyboard issue: the Data controls navigati
 - Final source review found no remaining important issues after these corrections.
 
 Publishing boundaries remain unchanged: profile/session records are illustrative, commercial states are empty, and authentication, account operations and data actions are local previews. This is not verification of live authentication or deployed behavior. Reload scroll restoration after removing the hash remains unresolved; only hash-destination visibility is verified here.
+
+### External review follow-up
+
+Verified and fixed both CodeRabbit findings before merge. Font preloads now use ReactDOM's preload API inside AccountApp, following the installed Next.js guidance, so direct legal-page visits do not fetch unused account fonts. Workspace unmount clears the parent's dirty flag, preventing stale exit warnings after browser history leaves the demo. This does not add confirmation to history navigation or persist discarded demo drafts.
+
+Fresh build, type check and lint passed again, with the same existing warnings. The production-export verifier passed all 61 assertions with zero uncaught runtime exceptions (`/tmp/nous-pr-final`). Added checks confirm the dirty guard is set by an edit, cleared by history exit, absent on the entry page and fresh demo, and that neither policy route preloads or fetches account fonts. The first polling-only run missed a hero animation; a diagnostic rerun observed both entrances, then document-start frame sampling was added to retain actual animation evidence across protocol delays. The final canonical verifier passed with that sampler.
+
+Final source review found no important issues in the follow-up changes. Live deployment verification remains a separate post-merge step.

@@ -47,14 +47,25 @@ try {
   if(suffix===''){
    let running=false;
    for(let i=0;i<150&&!running;i++){
-    running=await evaluate("[...document.querySelectorAll('[data-entrance]')].some(e=>e.getAnimations().some(a=>a.playState==='running'))");
+    running=await evaluate("window.__accountHeroObserved||[...document.querySelectorAll('[data-entrance]')].some(e=>e.getAnimations().some(a=>a.playState==='running'))");
     if(!running)await wait(20);
    }
    assert(running,'Hero entrance observed running in the browser');
   }
   await wait(300);await evaluate('document.fonts.ready');await wait(150);
  };
- await send('Page.enable');await send('Runtime.enable');await resize(1505,1045);
+ await send('Page.enable');await send('Runtime.enable');
+ // Record running entrances from document creation so protocol round trips
+ // cannot miss an animation that completed before the first external poll.
+ await send('Page.addScriptToEvaluateOnNewDocument',{source:`
+  window.__accountHeroObserved=false;
+  const deadline=performance.now()+10000;
+  const observeHero=()=>{
+   window.__accountHeroObserved=[...document.querySelectorAll('[data-entrance]')].some(e=>e.getAnimations().some(a=>a.playState==='running'));
+   if(!window.__accountHeroObserved&&performance.now()<deadline)requestAnimationFrame(observeHero);
+  };requestAnimationFrame(observeHero);
+ `});
+ await resize(1505,1045);
  await navigate('');
  assert(await evaluate("document.querySelector('h1')?.textContent==='NOUSACCOUNT'"),'Account page renders Nous Account');
  const fontState=await evaluate(`(()=>({checks:[document.fonts.check('400 48px "Dela Gothic One"'),document.fonts.check('400 16px "Zen Kaku Gothic New"'),document.fonts.check('500 16px "Zen Kaku Gothic New"')],faces:[...document.fonts].map(f=>({family:f.family,weight:f.weight,status:f.status}))}))()`);
@@ -92,6 +103,16 @@ try {
  await evaluate("document.getElementById('data_controls').scrollIntoView()");await wait(200);await shot('data-desktop');
  await click('Review export');await wait(100);await click('Preview export');await wait(80);assert(await evaluate("document.body.textContent.includes('No private records were downloaded.')"),'Data controls create a local preview only');await click('Cancel');
  await click('Delete account');await wait(80);await click('Review account deletion');await wait(80);await click('Preview deletion request');await wait(80);assert(await evaluate("document.body.textContent.includes('No account was changed.')"),'Deletion preview makes no destructive changes');await click('Cancel');
+ // History can unmount the workspace without going through its exit dialog.
+ await navigate('');await click('Explore demo account');await wait(150);
+ await evaluate(`(()=>{const e=document.getElementById('profile-name');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(e,'Unsaved draft');e.dispatchEvent(new Event('input',{bubbles:true}));})()`);await wait(80);
+ assert(await evaluate("(()=>{const e=new Event('beforeunload',{cancelable:true});window.dispatchEvent(e);return e.defaultPrevented})()"),'An edited demo profile sets the unsaved-change guard');
+ await evaluate('history.back()');await wait(150);
+ assert(await evaluate("!document.querySelector('.workspace-frame')&&(()=>{const e=new Event('beforeunload',{cancelable:true});window.dispatchEvent(e);return !e.defaultPrevented})()"),'Leaving the demo through history clears its unsaved-change guard');
+ await evaluate("document.querySelector('.wordmark').click()");await wait(80);
+ assert(await evaluate("!document.querySelector('dialog')"),'Entry navigation does not show a discarded-draft warning');
+ await click('Explore demo account');await wait(150);
+ assert(await evaluate("document.getElementById('profile-name').value==='Alex Example'&&(()=>{const e=new Event('beforeunload',{cancelable:true});window.dispatchEvent(e);return !e.defaultPrevented})()"),'A fresh demo starts with a clean profile and no stale exit guard');
  // All initially deferred groups must finish once and remain readable through scroll and resize.
  await navigate('?mode=demo');
  const pendingReveal=await evaluate("[...document.querySelectorAll('[data-reveal]')].some(e=>e.dataset.revealPlayed!=='true')");assert(pendingReveal,'Below-viewport reveals are prepared separately from visible content');
@@ -177,6 +198,7 @@ try {
  for(const [route,title] of [['privacy-policy','Privacy Policy'],['terms-of-service','Terms of Service']]){
   await navigate(route);
   assert(await evaluate(`document.querySelector('.legal-page h1')?.textContent===${JSON.stringify(title)}`),`${title} renders through its exported route`);
+  assert(await evaluate("!document.querySelector('link[rel=preload][href*=\"/fonts/\"]')&&!performance.getEntriesByType('resource').some(e=>e.name.includes('/fonts/'))"),`${title} does not preload or fetch unused account fonts`);
   assert(await evaluate("(()=>{const h=document.querySelector('.legal-page h1');const a=document.querySelector('.legal-page main header a');return getComputedStyle(h).fontFamily.includes('Geist')&&parseFloat(getComputedStyle(h).marginTop)>=20&&getComputedStyle(a).textDecorationLine.includes('underline')})()"),`${title} retains its typography, spacing and link affordance`);
   assert(await evaluate("getComputedStyle(document.querySelector('.legal-page section a')).color==='rgb(0, 78, 66)'"),`${title} uses readable dark teal policy links`);
   for(const width of [390,1440]){

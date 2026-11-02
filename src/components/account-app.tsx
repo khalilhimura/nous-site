@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { preload } from 'react-dom';
 
 import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { ArrowRight, ArrowUpRight, UserCircle, ShieldCheck, SquaresFour, Wallet, List, X, LockSimple, Check } from '@phosphor-icons/react';
@@ -31,6 +32,8 @@ const reviews: Record<ReviewKind | 'leave', { title: string; body: string; actio
 };
 
 export function AccountApp() {
+  preload('/fonts/dela-gothic-one/DelaGothicOne-Regular.ttf', { as: 'font', type: 'font/ttf', crossOrigin: 'anonymous' });
+  preload('/fonts/zen-kaku-gothic-new/ZenKakuGothicNew-Regular.ttf', { as: 'font', type: 'font/ttf', crossOrigin: 'anonymous' });
   const location = useSyncExternalStore(subscribe, snapshot, serverSnapshot);
   const params = new URLSearchParams(location.split('#')[0]);
   const demo = params.get('mode') === 'demo';

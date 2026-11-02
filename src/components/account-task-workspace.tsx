@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { useState, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { ArrowUpRight, Check, EnvelopeSimple, GoogleLogo, ShieldCheck, Monitor, Plus, CreditCard, LockSimple } from '@phosphor-icons/react';
 
 export type AccountView = 'profile' | 'security' | 'apps' | 'credits' | 'billing';
@@ -24,6 +24,7 @@ export function AccountTaskWorkspace({ view, go, review, onDirty }: {
   const [profile, setProfile] = useState({ name: 'Alex Example', email: 'alex@example.com', locale: 'English', timezone: 'Asia/Kuala_Lumpur' });
   const [saved, setSaved] = useState(profile);
   const [message, setMessage] = useState('');
+  useEffect(() => () => onDirty(false), [onDirty]);
   function edit(field: keyof typeof profile, value: string) {
     const next = { ...profile, [field]: value };
     setProfile(next); setMessage(''); onDirty(JSON.stringify(next) !== JSON.stringify(saved));
