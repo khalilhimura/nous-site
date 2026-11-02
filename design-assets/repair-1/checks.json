@@ -1,0 +1,386 @@
+{
+  "url": "http://127.0.0.1:58565",
+  "views": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "skip": {
+        "x": -10000,
+        "y": 12,
+        "width": 151.78125,
+        "height": 48,
+        "right": -9848.21875,
+        "bottom": 60
+      },
+      "smallTargets": [],
+      "heading": "Plato turns the mind toward the Forms.",
+      "cards": [
+        {
+          "columns": "136.797px 91.1875px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "136.797px 91.1875px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "136.797px 91.1875px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "136.797px 91.1875px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "136.797px 91.1875px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        }
+      ],
+      "footer": {
+        "width": 320,
+        "background": "rgb(18, 15, 11)",
+        "gridBackground": "rgba(0, 0, 0, 0)",
+        "textureOutsideText": true
+      },
+      "modernPresent": true,
+      "legalLinkCount": 2,
+      "focusedSkip": {
+        "x": 24,
+        "y": 12,
+        "width": 151.78125,
+        "height": 48,
+        "outline": "solid"
+      }
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "skip": {
+        "x": -10000,
+        "y": 12,
+        "width": 151.78125,
+        "height": 48,
+        "right": -9848.21875,
+        "bottom": 60
+      },
+      "smallTargets": [],
+      "heading": "Plato turns the mind toward the Forms.",
+      "cards": [
+        {
+          "columns": "178.797px 119.188px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "178.797px 119.188px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "178.797px 119.188px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "178.797px 119.188px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "178.797px 119.188px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        }
+      ],
+      "footer": {
+        "width": 390,
+        "background": "rgb(18, 15, 11)",
+        "gridBackground": "rgba(0, 0, 0, 0)",
+        "textureOutsideText": true
+      },
+      "modernPresent": true,
+      "legalLinkCount": 2,
+      "focusedSkip": {
+        "x": 24,
+        "y": 12,
+        "width": 151.78125,
+        "height": 48,
+        "outline": "solid"
+      }
+    },
+    {
+      "width": 470,
+      "scrollWidth": 470,
+      "skip": {
+        "x": -10000,
+        "y": 12,
+        "width": 151.78125,
+        "height": 48,
+        "right": -9848.21875,
+        "bottom": 60
+      },
+      "smallTargets": [],
+      "heading": "Plato turns the mind toward the Forms.",
+      "cards": [
+        {
+          "columns": "226.797px 151.188px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "226.797px 151.188px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "226.797px 151.188px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "226.797px 151.188px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        },
+        {
+          "columns": "226.797px 151.188px",
+          "imageRightOfText": true,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "16px"
+        }
+      ],
+      "footer": {
+        "width": 470,
+        "background": "rgb(18, 15, 11)",
+        "gridBackground": "rgba(0, 0, 0, 0)",
+        "textureOutsideText": true
+      },
+      "modernPresent": true,
+      "legalLinkCount": 2,
+      "focusedSkip": {
+        "x": 24,
+        "y": 12,
+        "width": 151.78125,
+        "height": 48,
+        "outline": "solid"
+      }
+    },
+    {
+      "width": 900,
+      "scrollWidth": 900,
+      "skip": {
+        "x": -10000,
+        "y": 12,
+        "width": 151.78125,
+        "height": 48,
+        "right": -9848.21875,
+        "bottom": 60
+      },
+      "smallTargets": [],
+      "heading": "Plato turns the mind\ntoward the Forms.",
+      "cards": [
+        {
+          "columns": "64px 260.922px 395.359px",
+          "imageRightOfText": false,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "17px"
+        },
+        {
+          "columns": "64px 260.922px 395.359px",
+          "imageRightOfText": false,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "17px"
+        },
+        {
+          "columns": "64px 260.922px 395.359px",
+          "imageRightOfText": false,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "17px"
+        },
+        {
+          "columns": "64px 260.922px 395.359px",
+          "imageRightOfText": false,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "17px"
+        },
+        {
+          "columns": "64px 260.922px 395.359px",
+          "imageRightOfText": false,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "17px"
+        }
+      ],
+      "footer": {
+        "width": 900,
+        "background": "rgb(18, 15, 11)",
+        "gridBackground": "rgba(0, 0, 0, 0)",
+        "textureOutsideText": true
+      },
+      "modernPresent": true,
+      "legalLinkCount": 2,
+      "focusedSkip": {
+        "x": 24,
+        "y": 12,
+        "width": 151.78125,
+        "height": 48,
+        "outline": "solid"
+      }
+    },
+    {
+      "width": 1487,
+      "scrollWidth": 1487,
+      "skip": {
+        "x": -10000,
+        "y": 12,
+        "width": 151.78125,
+        "height": 48,
+        "right": -9848.21875,
+        "bottom": 60
+      },
+      "smallTargets": [],
+      "heading": "Plato turns the mind\ntoward the Forms.",
+      "cards": [
+        {
+          "columns": "64px 309.906px 469.578px",
+          "imageRightOfText": false,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "17px"
+        },
+        {
+          "columns": "64px 309.906px 469.578px",
+          "imageRightOfText": false,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "17px"
+        },
+        {
+          "columns": "64px 309.906px 469.578px",
+          "imageRightOfText": false,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "17px"
+        },
+        {
+          "columns": "64px 309.906px 469.578px",
+          "imageRightOfText": false,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "17px"
+        },
+        {
+          "columns": "64px 309.906px 469.578px",
+          "imageRightOfText": false,
+          "imageSpansTextRows": true,
+          "textInside": true,
+          "imageRatio": 1,
+          "imageLoaded": true,
+          "bodySize": "17px"
+        }
+      ],
+      "footer": {
+        "width": 1487,
+        "background": "rgb(18, 15, 11)",
+        "gridBackground": "rgba(0, 0, 0, 0)",
+        "textureOutsideText": true
+      },
+      "modernPresent": true,
+      "legalLinkCount": 2,
+      "focusedSkip": {
+        "x": 24,
+        "y": 12,
+        "width": 151.78125,
+        "height": 48,
+        "outline": "solid"
+      }
+    }
+  ],
+  "errors": []
+}

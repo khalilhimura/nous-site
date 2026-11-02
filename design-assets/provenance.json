@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "images": [
+    {
+      "id": "bound_book_detail",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-14db18c5-94e2-4385-8a8a-403c39d11aed.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-14db18c5-94e2-4385-8a8a-403c39d11aed",
+      "prompt": "Single dark teal clothbound book on pale stone, portrait 2:3 editorial still life; no text or logo.",
+      "destination": "nous-site/public/images/editorial/bound_book_detail.png",
+      "width": 1024,
+      "height": 1536,
+      "aspectRatio": "2:3",
+      "bytes": 3532590,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "e8314d2d9c57bd57ef112233b7c2e524289a94b3e0c650b34d21ab9b1b4c7a08"
+    },
+    {
+      "id": "greek_text_detail",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-4c800e31-f4c9-44ac-acc9-c26e67a20fff.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-4c800e31-f4c9-44ac-acc9-c26e67a20fff",
+      "prompt": "One finished standalone Nous editorial photograph, asset greek_text_detail. Subject: A contemporary letterpress specimen on cream cotton paper with ONLY the accurately rendered Greek word \u03bd\u03bf\u1fe6\u03c2, large dark ink letters centered with generous margins. Macro angled camera view, tactile ink impression. Do not invent historical manuscript text or claim antiquity. This is a contemporary editorial specimen. Centered word must remain inside middle 55% for square crop. Aspect ratio 2:3; at least 1 megapixel. Professional medium-format still-life photography, tactile material, soft directional natural daylight, warm stone neutrals, charcoal and restrained teal when physically appropriate. Reference framing: Gallery Studio tall object crops for material studies; Sidrano portrait media units for Anaxagoras. Central focal placement, quiet outer 10%, no text-safe overlay needed because copy is HTML outside. No collage, website, UI, icon, diagram, logo, unrelated props, people, decorative glow, artificial blur strips or invented historical provenance.",
+      "destination": "nous-site/public/images/editorial/greek_text_detail.png",
+      "width": 1024,
+      "height": 1536,
+      "aspectRatio": "2:3",
+      "bytes": 2848237,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "e06fb4025b35230ecd122793b4755d5cd6efe13c428d4814e4aaf016d29cba0b"
+    },
+    {
+      "id": "light_on_paper",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-2636e315-af72-4c4d-a642-724b5f381cb1.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-2636e315-af72-4c4d-a642-724b5f381cb1",
+      "prompt": "One finished standalone Nous editorial photograph, asset light_on_paper. Subject: A real sheet of gently curved cream cotton paper catching a narrow band of natural window light, close macro photograph showing paper fibers and a soft fold, central fold at x50% y50%. Wide quiet margins allow a 5:1 center banner crop; physical paper fills the entire frame, no abstract digital shapes. Aspect ratio 2:3; at least 1 megapixel. Professional medium-format still-life photography, tactile material, soft directional natural daylight, warm stone neutrals, charcoal and restrained teal when physically appropriate. Reference framing: Gallery Studio tall object crops for material studies; Sidrano portrait media units for Anaxagoras. Central focal placement, quiet outer 10%, no text-safe overlay needed because copy is HTML outside. No collage, website, UI, icon, diagram, logo, unrelated props, people, decorative glow, artificial blur strips or invented historical provenance.",
+      "destination": "nous-site/public/images/editorial/light_on_paper.png",
+      "width": 1024,
+      "height": 1536,
+      "aspectRatio": "2:3",
+      "bytes": 2282683,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "2d3fdbb61a71c2b6d9b6d3cc493ee217b90ffcadc9f50ee22530472c0c358bc7"
+    },
+    {
+      "id": "stone_surface_detail",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-05115cb0-a243-475c-8ab0-f4fc78f10a8c.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-05115cb0-a243-475c-8ab0-f4fc78f10a8c",
+      "prompt": "One finished standalone Nous editorial photograph, asset stone_surface_detail. Subject: Close-up photograph of a genuine dark warm-gray limestone slab, nuanced mineral grain and one natural seam running across center. Grazing side daylight reveals physical stone. Full-frame material photograph with no objects, text or symbols; keep contrast gentle for a broad footer background crop. Aspect ratio 2:3; at least 1 megapixel. Professional medium-format still-life photography, tactile material, soft directional natural daylight, warm stone neutrals, charcoal and restrained teal when physically appropriate. Reference framing: Gallery Studio tall object crops for material studies; Sidrano portrait media units for Anaxagoras. Central focal placement, quiet outer 10%, no text-safe overlay needed because copy is HTML outside. No collage, website, UI, icon, diagram, logo, unrelated props, people, decorative glow, artificial blur strips or invented historical provenance.",
+      "destination": "nous-site/public/images/editorial/stone_surface_detail.png",
+      "width": 1024,
+      "height": 1536,
+      "aspectRatio": "2:3",
+      "bytes": 3441864,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "381a32f11a035b8aaa4b56236c7b0bb1876518c72fd05e3de83fe88be1136617"
+    },
+    {
+      "id": "open_page_detail",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-2a517172-120a-4e51-b283-f45f9ac208a4.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-2a517172-120a-4e51-b283-f45f9ac208a4",
+      "prompt": "One finished standalone Nous editorial photograph, asset open_page_detail. Subject: A real open unprinted cream-paper book viewed obliquely from above, close focus on curved gutter and layered page edges, centered binding at x50% y50%, soft daylight and warm stone table. Blank pages, no fake writing. Materiality of reading and transmission, cover barely visible, no other props. Aspect ratio 2:3; at least 1 megapixel. Professional medium-format still-life photography, tactile material, soft directional natural daylight, warm stone neutrals, charcoal and restrained teal when physically appropriate. Reference framing: Gallery Studio tall object crops for material studies; Sidrano portrait media units for Anaxagoras. Central focal placement, quiet outer 10%, no text-safe overlay needed because copy is HTML outside. No collage, website, UI, icon, diagram, logo, unrelated props, people, decorative glow, artificial blur strips or invented historical provenance.",
+      "destination": "nous-site/public/images/editorial/open_page_detail.png",
+      "width": 1024,
+      "height": 1536,
+      "aspectRatio": "2:3",
+      "bytes": 2324034,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "3bff8d4408bfd4f572724b1d49b966e71662f01528ba1d16b21d8ab71fa47e4e"
+    },
+    {
+      "id": "anaxagoras_mixture",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-1f83268b-2716-407a-8089-f536c9346242.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-1f83268b-2716-407a-8089-f536c9346242",
+      "prompt": "One finished standalone Nous editorial photograph, asset anaxagoras_mixture. Subject: Editorial still-life photograph of different grains of sand, small mineral fragments and natural pebbles physically mingled in a shallow dark ceramic tray, overhead close crop, granular detail sharply resolved at center. Real mixed material illustrates primordial mixture; no cosmic render, diagram or generic geometry. Aspect ratio 21:25; at least 1 megapixel. Professional medium-format still-life photography, tactile material, soft directional natural daylight, warm stone neutrals, charcoal and restrained teal when physically appropriate. Reference framing: Gallery Studio tall object crops for material studies; Sidrano portrait media units for Anaxagoras. Central focal placement, quiet outer 10%, no text-safe overlay needed because copy is HTML outside. No collage, website, UI, icon, diagram, logo, unrelated props, people, decorative glow, artificial blur strips or invented historical provenance.",
+      "destination": "nous-site/public/images/editorial/anaxagoras_mixture.png",
+      "width": 1149,
+      "height": 1368,
+      "aspectRatio": "383:456",
+      "bytes": 3610995,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "2d540c319712c58cb392dc6ee7a3d60f89cd2045d4fedc5692c81c925a9ceb01"
+    },
+    {
+      "id": "anaxagoras_mind",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-0128d267-5c18-429c-95cc-d3a20cafbef5.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-0128d267-5c18-429c-95cc-d3a20cafbef5",
+      "prompt": "Create one finished standalone editorial photograph for Nous. Asset anaxagoras_mind. Subject: One pale natural river stone distinctly separated from a mingled bed of darker sand and pebbles, in a shallow ceramic tray. The pale stone at center, clear physical separation around it; overhead still life, tactile grains. Ratio 21:25, at least 1 megapixel. Sidrano portrait photographic framing for material units, Avoora broad single-image framing for Aristotle. Camera: medium-format still-life, controlled daylight, rich physical details, no fake shallow blur strips. Stone-neutral, cream, charcoal and subtle teal palette; quiet margins 10%; no text overlay except Aristotle bottom18% dark safe area. No collage, UI, lettering, logo, historical people, diagrams or generic rendered geometry. It illustrates philosophical ideas, never documentary proof.",
+      "destination": "nous-site/public/images/editorial/anaxagoras_mind.png",
+      "width": 1149,
+      "height": 1368,
+      "aspectRatio": "383:456",
+      "bytes": 3419403,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "0af9cea956b413115d9189333d564f5acdb491809b29b53993ad631f5df0a9e7"
+    },
+    {
+      "id": "anaxagoras_motion",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-57661f17-2fbd-489d-b580-175695bedf95.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-57661f17-2fbd-489d-b580-175695bedf95",
+      "prompt": "Create one finished standalone editorial photograph for Nous. Asset anaxagoras_motion. Subject: Physical sand in a shallow circular ceramic bowl, photographed at a low overhead angle, a subtle circular trail made by one moving small pebble; pebble and trail center. Crisp material, slight natural motion of sand only; no abstract orbit diagram. Ratio 21:25, at least 1 megapixel. Sidrano portrait photographic framing for material units, Avoora broad single-image framing for Aristotle. Camera: medium-format still-life, controlled daylight, rich physical details, no fake shallow blur strips. Stone-neutral, cream, charcoal and subtle teal palette; quiet margins 10%; no text overlay except Aristotle bottom18% dark safe area. No collage, UI, lettering, logo, historical people, diagrams or generic rendered geometry. It illustrates philosophical ideas, never documentary proof.",
+      "destination": "nous-site/public/images/editorial/anaxagoras_motion.png",
+      "width": 1149,
+      "height": 1368,
+      "aspectRatio": "383:456",
+      "bytes": 3055246,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "b8ddefd720753b5600cca09f78347bb57a2940bf2f48d5c1662a83a46348ee42"
+    },
+    {
+      "id": "anaxagoras_order",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-d7f00966-3c67-47a3-8e8e-f9a6bdc1e8f5.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-d7f00966-3c67-47a3-8e8e-f9a6bdc1e8f5",
+      "prompt": "Create one finished standalone editorial photograph for Nous. Asset anaxagoras_order. Subject: Small natural pebbles and grains physically separated by material on a stone table, organic ordered arrangement, real geological materials with recognizable textures, centered overhead still life, not a schematic or geometric diagram. Ratio 21:25, at least 1 megapixel. Sidrano portrait photographic framing for material units, Avoora broad single-image framing for Aristotle. Camera: medium-format still-life, controlled daylight, rich physical details, no fake shallow blur strips. Stone-neutral, cream, charcoal and subtle teal palette; quiet margins 10%; no text overlay except Aristotle bottom18% dark safe area. No collage, UI, lettering, logo, historical people, diagrams or generic rendered geometry. It illustrates philosophical ideas, never documentary proof.",
+      "destination": "nous-site/public/images/editorial/anaxagoras_order.png",
+      "width": 1149,
+      "height": 1368,
+      "aspectRatio": "383:456",
+      "bytes": 3519782,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "e57154b944ddcf3ad49bd9b1837c71e7e3b719048211e77b4577cac309498f4c"
+    },
+    {
+      "id": "forms_material_detail",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-2a302417-9424-4334-82c8-f1439d51e4e0.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-2a302417-9424-4334-82c8-f1439d51e4e0",
+      "prompt": "Create one finished standalone editorial photograph for Nous. Asset forms_material_detail. Subject: A close-up of a real classical plaster study of an unadorned vessel with its soft shadow falling on cream paper, centered, tactile plaster surface; one object and one shadow illustrate appearance and intelligible form without a diagram. No people or statues. Ratio 1:1, at least 1 megapixel. Sidrano portrait photographic framing for material units, Avoora broad single-image framing for Aristotle. Camera: medium-format still-life, controlled daylight, rich physical details, no fake shallow blur strips. Stone-neutral, cream, charcoal and subtle teal palette; quiet margins 10%; no text overlay except Aristotle bottom18% dark safe area. No collage, UI, lettering, logo, historical people, diagrams or generic rendered geometry. It illustrates philosophical ideas, never documentary proof.",
+      "destination": "nous-site/public/images/editorial/forms_material_detail.png",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": "1:1",
+      "bytes": 2708844,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "070a078eb9e432c8b92cf4e846808478238fe2a1a85550efd9ed6c379c26035e"
+    },
+    {
+      "id": "aristotle_light_study",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-91f09082-062d-41e7-aef5-d0fb40bcbbab.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-91f09082-062d-41e7-aef5-d0fb40bcbbab",
+      "prompt": "Create one finished standalone editorial photograph for Nous. Asset aristotle_light_study. Subject: A physical optical still life: clear glass prism at center on a dark stone table, sunlight revealing color across a small cream paper sheet. Light source outside frame, visibly plausible refraction, material rather than digital rainbow, central subject survives 3:4 portrait crop. Bottom 18% quiet dark stone for HTML caption bar. Sharp editorial photograph, not abstract gradient. Ratio 16:9, at least 1 megapixel. Sidrano portrait photographic framing for material units, Avoora broad single-image framing for Aristotle. Camera: medium-format still-life, controlled daylight, rich physical details, no fake shallow blur strips. Stone-neutral, cream, charcoal and subtle teal palette; quiet margins 10%; no text overlay except Aristotle bottom18% dark safe area. No collage, UI, lettering, logo, historical people, diagrams or generic rendered geometry. It illustrates philosophical ideas, never documentary proof.",
+      "destination": "nous-site/public/images/editorial/aristotle_light_study.png",
+      "width": 1672,
+      "height": 941,
+      "aspectRatio": "1672:941",
+      "bytes": 2423772,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "2e16bbd64e82f50ef6a048f9597feeb2d292e6d1d26ac7b91629914ec9f0db48"
+    },
+    {
+      "id": "plotinus_reflection_study",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-b6dd4ebc-db86-4892-8375-5bfc8d594fd8.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-b6dd4ebc-db86-4892-8375-5bfc8d594fd8",
+      "prompt": "Generate one finished Nous editorial photographic illustration, plotinus_reflection_study. Subject: An open unprinted cream book reflected in a slightly weathered dark mirror on a stone reading desk. Real book and reflection meet near center, oblique close photograph. Main subject within central45% height so a wide mobile crop retains book/reflection relationship. Tall Avoora editorial media frame. Exact requested ratio 3:4, at least1 megapixel. Camera: premium medium-format still life with honest physical texture, sharp focal material and soft natural daylight, cream paper, warm gray stone, dark charcoal, subtle deep teal bookcloth. Avoora media framing for Plotinus; Creatiie compact right-side media slot for theology, centered isolated physical subject on quiet background, no overlay text needed. No website, collage, UI, writing, icons, diagrams, generic geometric filler, portraits, mystical beams, ornate religious symbols or historical document claims. Keep outer10% clear for crops.",
+      "destination": "nous-site/public/images/editorial/plotinus_reflection_study.png",
+      "width": 1086,
+      "height": 1448,
+      "aspectRatio": "3:4",
+      "bytes": 2346238,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "5d5ea07e014b0b630d8a8972eb20585839496837b14925b33aa21c1e582c462f"
+    },
+    {
+      "id": "plotinus_source_study",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-649eeb95-3c64-457e-a109-2b589523eca5.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-649eeb95-3c64-457e-a109-2b589523eca5",
+      "prompt": "Generate one finished Nous editorial photographic illustration, plotinus_source_study. Subject: Natural daylight entering a real small unglazed window and falling onto a closed dark book on stone sill. Close photographic detail of one light source and material receiving it, central focal point; no mystical glow or cosmic depiction. Exact requested ratio 1:1, at least1 megapixel. Camera: premium medium-format still life with honest physical texture, sharp focal material and soft natural daylight, cream paper, warm gray stone, dark charcoal, subtle deep teal bookcloth. Avoora media framing for Plotinus; Creatiie compact right-side media slot for theology, centered isolated physical subject on quiet background, no overlay text needed. No website, collage, UI, writing, icons, diagrams, generic geometric filler, portraits, mystical beams, ornate religious symbols or historical document claims. Keep outer10% clear for crops.",
+      "destination": "nous-site/public/images/editorial/plotinus_source_study.png",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": "1:1",
+      "bytes": 2544278,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "9169f9c20cc55339164a4b93b86973a0acd6158765b0c916573448c80d223052"
+    },
+    {
+      "id": "plotinus_connection_study",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-6a492c15-7b90-46cf-9524-c0d6a5e8f1cb.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-6a492c15-7b90-46cf-9524-c0d6a5e8f1cb",
+      "prompt": "Generate one finished Nous editorial photographic illustration, plotinus_connection_study. Subject: A hand-sewn book binding close-up, cream pages connected by visible linen thread, tactile thread and paper at center, professional macro photography. Real material connection illustrates a relationship; no diagram. Exact requested ratio 1:1, at least1 megapixel. Camera: premium medium-format still life with honest physical texture, sharp focal material and soft natural daylight, cream paper, warm gray stone, dark charcoal, subtle deep teal bookcloth. Avoora media framing for Plotinus; Creatiie compact right-side media slot for theology, centered isolated physical subject on quiet background, no overlay text needed. No website, collage, UI, writing, icons, diagrams, generic geometric filler, portraits, mystical beams, ornate religious symbols or historical document claims. Keep outer10% clear for crops.",
+      "destination": "nous-site/public/images/editorial/plotinus_connection_study.png",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": "1:1",
+      "bytes": 2671176,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "9c697ae272ffbe9981d32ce865979bf85ff8583165471d3b6461bd305dbd9d2c"
+    },
+    {
+      "id": "theology_attention_study",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-0ea1955c-3c0c-4506-b060-93955d101878.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-0ea1955c-3c0c-4506-b060-93955d101878",
+      "prompt": "Generate one finished Nous editorial photographic illustration, theology_attention_study. Subject: One open unprinted book on a plain stone reading desk beside a narrow window, close intimate still life emphasizing an empty quiet reading place, centered book with10% breathing room, no people or words. Exact requested ratio 1:1, at least1 megapixel. Camera: premium medium-format still life with honest physical texture, sharp focal material and soft natural daylight, cream paper, warm gray stone, dark charcoal, subtle deep teal bookcloth. Avoora media framing for Plotinus; Creatiie compact right-side media slot for theology, centered isolated physical subject on quiet background, no overlay text needed. No website, collage, UI, writing, icons, diagrams, generic geometric filler, portraits, mystical beams, ornate religious symbols or historical document claims. Keep outer10% clear for crops.",
+      "destination": "nous-site/public/images/editorial/theology_attention_study.png",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": "1:1",
+      "bytes": 2570955,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "7b6d86cce800be9c279bf759bd61528b0f818f85bd2d3d4cf7e160caa6b4c579"
+    },
+    {
+      "id": "theology_purification_study",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-8782a90b-c26c-4acb-b437-e13a731f995f.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-8782a90b-c26c-4acb-b437-e13a731f995f",
+      "prompt": "Generate one finished Nous editorial photographic illustration, theology_purification_study. Subject: A small unglazed cream bowl of clear water beside a folded linen cloth and a closed plain book, calm directional daylight, centered close still life on stone, materially specific, no religious promises or ritual documentary claims. Exact requested ratio 1:1, at least1 megapixel. Camera: premium medium-format still life with honest physical texture, sharp focal material and soft natural daylight, cream paper, warm gray stone, dark charcoal, subtle deep teal bookcloth. Avoora media framing for Plotinus; Creatiie compact right-side media slot for theology, centered isolated physical subject on quiet background, no overlay text needed. No website, collage, UI, writing, icons, diagrams, generic geometric filler, portraits, mystical beams, ornate religious symbols or historical document claims. Keep outer10% clear for crops.",
+      "destination": "nous-site/public/images/editorial/theology_purification_study.png",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": "1:1",
+      "bytes": 2783265,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "7f8b9d017a906ec3e2fd4680da6d1064573e150faf421fc6476389996e33da45"
+    },
+    {
+      "id": "theology_watchfulness_study",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-538a2038-98ed-46e0-a48b-139b431937c4.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-538a2038-98ed-46e0-a48b-139b431937c4",
+      "prompt": "Create one finished standalone Nous editorial photographic illustration named theology_watchfulness_study. Close editorial photograph of a page corner held in place by a plain pale stone, small daylight line at edge of page, cream cotton paper and deep teal bookcloth. Emphasize deliberate attention to one page, center focal subject, no printed words. Requested aspect ratio 1:1, at least1 megapixel. Natural daylight, tactile paper/linen/stone, warm neutral and charcoal palette with restrained teal, professional editorial photography. Theology subjects fill central70% with quiet outer margins for square compact right-side frame; no overlay text. Reading scene has right45% quiet text-safe wall. No UI, website, collage, logos, people, writing, fake historic documents, icons, SVG-like diagrams, ornamental geometry, glow, artificial blur slices, or generic abstract filler.",
+      "destination": "nous-site/public/images/editorial/theology_watchfulness_study.png",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": "1:1",
+      "bytes": 2427052,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "9ae2c1500ca30e04f555b16ecbd8b3ac261a0c8c495136f34d636c05524c075e"
+    },
+    {
+      "id": "theology_participation_study",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-f2b2396a-76c1-455b-bc4b-beaa9fa7c118.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-f2b2396a-76c1-455b-bc4b-beaa9fa7c118",
+      "prompt": "Corrected two distinct open books, overhead square editorial still life on stone; no text.",
+      "destination": "nous-site/public/images/editorial/theology_participation_study.png",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": "1:1",
+      "bytes": 2847632,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "f7dbc861059270474ba7b23cd5b64519ba8cc74de95352df9a5832e08f87c00f",
+      "supersededOutputId": "exec-d233f5a9-0d93-4676-9a16-2ea2ec2cc76f",
+      "regenerationReason": "First output contained one book rather than two."
+    },
+    {
+      "id": "theology_prayer_study",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-63bcd786-86ec-4c5a-b0d3-6b7ae99be196.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-63bcd786-86ec-4c5a-b0d3-6b7ae99be196",
+      "prompt": "Create one finished standalone Nous editorial photographic illustration named theology_prayer_study. A quiet empty reading place: small plain closed book and simple unlit beeswax candle on a warm stone ledge, soft side light, intimate close photograph. Centered book, no person, no readable text, no claim of a real religious site or ritual. Requested aspect ratio 1:1, at least1 megapixel. Natural daylight, tactile paper/linen/stone, warm neutral and charcoal palette with restrained teal, professional editorial photography. Theology subjects fill central70% with quiet outer margins for square compact right-side frame; no overlay text. Reading scene has right45% quiet text-safe wall. No UI, website, collage, logos, people, writing, fake historic documents, icons, SVG-like diagrams, ornamental geometry, glow, artificial blur slices, or generic abstract filler.",
+      "destination": "nous-site/public/images/editorial/theology_prayer_study.png",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": "1:1",
+      "bytes": 2388034,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "fa4fe13025955531e2e4052140fd72f0f360ae03b7687d1ccbb405252a7e489f"
+    },
+    {
+      "id": "everyday_reading_scene",
+      "path": "/Users/khalilhimura/.codex/generated_images/01a19b4f-5ec8-78e0-9a1a-f122e544fd99/exec-47d7049b-be1b-4b40-913f-6cb281896c78.png",
+      "tool": "image_gen.imagegen",
+      "outputId": "exec-47d7049b-be1b-4b40-913f-6cb281896c78",
+      "prompt": "Create one finished standalone Nous editorial photographic illustration named everyday_reading_scene. An inviting anonymous contemporary reading corner, no people: cream linen chair on left, small stone side table with open blank book at center lower third, natural window light, a plain warm-gray wall across right45% as text-safe area. Quiet real domestic architecture, restrained dark teal clothbound book, no extra decoration or product, sharp medium-format interior photography. Preserve Nubo's wide lifestyle image framing, composition works at wide and 1.5:1 mobile crops. Requested aspect ratio 3:2, at least1 megapixel. Natural daylight, tactile paper/linen/stone, warm neutral and charcoal palette with restrained teal, professional editorial photography. Theology subjects fill central70% with quiet outer margins for square compact right-side frame; no overlay text. Reading scene has right45% quiet text-safe wall. No UI, website, collage, logos, people, writing, fake historic documents, icons, SVG-like diagrams, ornamental geometry, glow, artificial blur slices, or generic abstract filler.",
+      "destination": "nous-site/public/images/editorial/everyday_reading_scene.png",
+      "width": 1536,
+      "height": 1024,
+      "aspectRatio": "3:2",
+      "bytes": 2550349,
+      "visualReview": "accepted original; crop guidance in manifest",
+      "sha256": "8a9869684324845d18a482c0f76fade95301bdbb5d32a9105581ef6cd847df01"
+    }
+  ],
+  "fontSource": "https://github.com/vercel/geist-font",
+  "fontDistribution": "https://registry.npmjs.org/geist/-/geist-1.7.2.tgz",
+  "fontLicense": "SIL Open Font License 1.1",
+  "fonts": [
+    {
+      "destination": "public/fonts/geist-mono/GeistMono-Italic[wght].woff2",
+      "axes": [
+        [
+          "wght",
+          100.0,
+          400.0,
+          900.0
+        ]
+      ],
+      "sha256": "926f2751ea0c8f737baa4bbd7459376fcbed98f31fbbc7ad19f427010a25e6ad"
+    },
+    {
+      "destination": "public/fonts/geist-mono/GeistMono-Variable.woff2",
+      "axes": [
+        [
+          "wght",
+          100.0,
+          400.0,
+          900.0
+        ]
+      ],
+      "sha256": "fba8f577f38a2bbcbe818efa6348dd58f36303a10b8737c42fefad275be563ab"
+    },
+    {
+      "destination": "public/fonts/geist-sans/Geist-Variable.woff2",
+      "axes": [
+        [
+          "wght",
+          100.0,
+          400.0,
+          900.0
+        ]
+      ],
+      "sha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8"
+    },
+    {
+      "destination": "public/fonts/geist-sans/Geist-Italic[wght].woff2",
+      "axes": [
+        [
+          "wght",
+          100.0,
+          400.0,
+          900.0
+        ]
+      ],
+      "sha256": "5aa7d48f114322a085337fad71e52664d6fd69331eb7e395af3b7d0025613da4"
+    }
+  ]
+}
